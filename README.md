@@ -12,14 +12,14 @@ It retrieves:
 
 ## 🔧 Quick start (direct from GitHub)
 
-You can load the function directly into R without downloading the repo manually:
+You can load the function directly into R without manually cloning the repository:
 
 ```r
 # Install 'remotes' package if not yet installed
 install.packages("remotes")
 
-# Load the function directly from GitHub (main branch)
-source("https://raw.githubusercontent.com/<YOUR_USERNAME>/HumanProteinAtlasBrainR/main/getFullInfoBrain_HumanProteinAtlas.R")
+# Source the function directly from GitHub (main branch)
+source("https://raw.githubusercontent.com/mateuszzieba/HumanProteinAtlasBrainR/main/getFullInfoBrain_HumanProteinAtlas.R")
 
 # Example usage:
 res <- getFullInfoBrain_HumanProteinAtlas("TSC22D3")
